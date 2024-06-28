@@ -1,7 +1,7 @@
 package day18;
 
 //@FunctionalInterface 
-interface Test {
+interface Test {//abstract 메소드가 하나여야 함수형 인터페이스임
 	void run();
 
 	void print();

@@ -1,4 +1,4 @@
-package day9;
+package day09;
 
 public class Card{	
 	public String kind ;		// 카드의 무늬 - 인스턴스 변수

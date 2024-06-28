@@ -1,4 +1,4 @@
-package day9.실습;
+package day09.실습;
 
 class AchademyFriend{
 	static String academyName = "KOSA";

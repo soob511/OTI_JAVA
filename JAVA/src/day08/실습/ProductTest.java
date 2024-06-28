@@ -1,4 +1,4 @@
-package day8.실습;
+package day08.실습;
 
 class Product {
 	String name;

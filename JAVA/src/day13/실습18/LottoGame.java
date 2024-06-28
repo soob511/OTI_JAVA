@@ -7,7 +7,7 @@ public class LottoGame {
 		lm.createLottoNums();
 		try {
 			lm.checkLottoNums();
-			day8.MethodTest7.printArray(lm.getNums());
+			day08.MethodTest7.printArray(lm.getNums());
 		}catch(DuplicateException e){
 			System.out.println(e.getMessage());
 		}
