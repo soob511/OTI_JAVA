@@ -27,7 +27,7 @@ class BlobRead {
 			Blob blob = rset.getBlob("ic");
 			System.out.println(blob.length()+"바이트 크기");
 			InputStream is = blob.getBinaryStream();
-			FileOutputStream fo = new FileOutputStream(saveImgFileName);
+			FileOutputStream fo = new FileOutputStream(saveImgFileName);//파일로저장
 			int c = 0;
 			while ((c = is.read()) != -1)
 				fo.write(c);
